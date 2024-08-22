@@ -14,7 +14,7 @@ def format():
                 LASTNAME = LASTNAME.split(" ")[0]
 
             # Remove instructors from being added
-            if (FIRSTNAME, LASTNAME) in [("Javier", "Orduz"), ("Yunting", "Yin"), ("Charlie", "Peck")]:
+            if (FIRSTNAME, LASTNAME) in [("First", "Last"), ("First", "Last"), ("First", "Last")]:
                 continue
 
             # Format and write the output line
